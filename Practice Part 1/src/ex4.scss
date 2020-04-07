@@ -1,0 +1,35 @@
+#ex4 {
+  .cont {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+    .header {
+      background-color: rgb(123, 115, 232);
+      height: 60px;
+      width: 100%;
+    }
+
+    .left-sidebar,
+    .main-content,
+    .right-sidebar {
+      min-height: calc(100vh - 60px - 60px);
+    }
+
+    .left-sidebar,
+    .right-sidebar {
+      width: 100px;
+      background-color: rgb(115, 232, 166);
+    }
+
+    .main-content {
+      width: calc(100% - 200px);
+    }
+
+    .footer {
+      background-color: rgb(123, 115, 232);
+      height: 60px;
+      width: 100%;
+    }
+  }
+}

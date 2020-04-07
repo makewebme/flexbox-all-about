@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-size: 24px;
+  min-height: 100vh;
+
+  * {
+    background-color: rgba(200,20,20,.3);
+    box-sizing: border-box;
+  }
+}
+
+.cont {
+  width: 1200px;
+  margin: 0 auto;
+
+  @media(max-width: 1260px) {
+    width: 768px;
+  }
+
+  @media(max-width: 828px) {
+    width: 460px;
+  }
+
+  @media(max-width: 490px) {
+    width: 100%;
+    padding: 0 15px;
+  }
+}
+
+@import 'ex1';
+@import 'ex2';
+@import 'ex3';
+@import 'ex4';
+@import 'ex5';
